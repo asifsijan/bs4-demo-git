@@ -5,25 +5,377 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="owl.carousel.min.css"/>
+  <link rel="stylesheet" type="text/css" href="owl.theme.default.min.css"/>
+  
+
+  
+  <style>
+    /* Make the image fully responsive */
+    
+    .carousel-inner img {
+    width: 100%;
+    height: 60%;
+    
+   }
+    .fill {object-fit: fill;}
+    .contain {object-fit: contain;}
+    .cover {object-fit: cover;}
+    .scale-down {object-fit: scale-down;}
+    .none {object-fit: none;}
+    .wrapper {width: 58%;height: 20%; overflow: hidden; margin-top: 20px; }
+    </style>
+    
 </head>
 
 <body>
 
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/1200px-Cineplex-Logo.svg"></a>
+        <a class="navbar-brand" href="index.html"><img src="https://www.nicepng.com/png/full/533-5335492_cineplex-logo-cineplex-entertainment-logo.png" width="20%" ></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sign In</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sign Up</a>
+                </li>
+                
+            </ul>
+
+        </div>
     </div>
     </nav>
 
 
+    <!--NAVBAR-->
+
+
+    
+   
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #666666;">
+          
+            <ul class="navbar-nav" >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Show Time</a>
+              </li>
+             
+            </ul>
+          
+          
+            <ul class="navbar-nav ml-auto" >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Facilities</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#" >Corporates</a>
+              </li>
+            </ul>
+          
+          </nav>
+        
+
+
+    <!--SLIDER-->
+
+<!--
+    
+
+    <div class="container" align="center">
+      <div id="slides" class="carousel slide" data-ride="carousel" data-interval="1500">
+          <ul class="carousel-indicators">
+              <li data-target="#slides" data-slide-to="0" class="active"></li>
+              <li data-target="#slides" data-slide-to="1"></li>
+              <li data-target="#slides" data-slide-to="2"></li>
+          </ul>
+  
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="cover" src="https://voyagecomics.com/wp-content/uploads/2019/06/endgame-1.jpg" style="width: 800px; height: 482px ">
+          </div>
+          <div class="carousel-item">
+              <img class="cover" style="width: 800px; height: 482px " src="https://i2.cdn.turner.com/cnnnext/dam/assets/140302231158-academyawards-frozen-horizontal-large-gallery.jpg">
+          </div>
+          <div class="carousel-item">
+                <img class="cover" style="width: 800px; height: 482px " src="https://voyagecomics.com/wp-content/uploads/2019/06/endgame-1.jpg">
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#slides" data-slide="prev" align="center">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slides" data-slide="next" align="center">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+     
+
+  </div>
+
+-->
+
+
+
+
+
+
+    <!--owlcarousel-->
+
+    <div class="container wrapper">
+      <div class="owl-carousel owl-theme">
+      
+        <div class="item"><img src="https://voyagecomics.com/wp-content/uploads/2019/06/endgame-1.jpg" 
+          style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        <div class="item"><img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140302231158-academyawards-frozen-horizontal-large-gallery.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        <div class="item"><img src="https://voyagecomics.com/wp-content/uploads/2019/06/endgame-1.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        <div class="item"><img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140302231158-academyawards-frozen-horizontal-large-gallery.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        <div class="item"><img src="https://voyagecomics.com/wp-content/uploads/2019/06/endgame-1.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        <div class="item"><img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140302231158-academyawards-frozen-horizontal-large-gallery.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        <div class="item"><img src="https://voyagecomics.com/wp-content/uploads/2019/06/endgame-1.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+
+        <div class="item"><img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140302231158-academyawards-frozen-horizontal-large-gallery.jpg"
+           style="width: 400px; height: 250px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+        <div class="item" style="width: 20px;"></div>
+
+        
+    </div>
+
+
+
+
+
+<!--    
+    <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-6 col-lg-3 ">
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+              </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            One of three columns
+          </div>
+          <div class=" col-md-6 col-lg-3">
+            One of three columns
+          </div>
+          
+        </div>
+      </div>
+    -->  
+
+
+
+    <div class="container-fluid" align="center">
+
+      <div class="row">
+        <div class="col-4">
+
+          <table class="table">
+            
+              <tr>
+                <td align="center"><h5>TRENDING!!</h5></th>
+              </tr>
+            
+        
+              <tr>
+                <td align="center">
+                  <a class="movie1" href="index.html"><img src="https://i.pinimg.com/originals/fb/32/1d/fb321dd682c5509f53d8087fe7032d71.jpg" 
+                    width="60%" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"> <br> Avengers </a>
+                  </td>
+              </tr>
+              
+              <tr>
+                <td align="center">
+                  <a class="movie2" href="index.html"><img src="https://images-na.ssl-images-amazon.com/images/I/71YrVzXizzL._AC_SY741_.jpg" 
+                    width="60%" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"><br>Joker</a>
+                  </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <a class="movie3" href="index.html"><img src="https://i.pinimg.com/originals/a7/95/cf/a795cfabc3f07fd25effc0e9da0e50d0.png" 
+                    width="60%" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"><br>Frozen 2</a>
+                  </td>
+              </tr>
+            
+
+          </table>
+
+
+        </div>
+        <div class="col-8">
+
+           
+          <!--now showing-->
+
+
+          <nav class="navbar navbar-expand-sm navbar-light" style="background-color:azure;">
+          
+            <ul class="navbar-nav" >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Now Showing</a>
+
+              </li>
+           
+            </ul>
+          
+          </nav>
+        
+          <table>
+            <tr>
+              <td align="center">
+                <a class="movie1" href="index.html"><img src="https://i.pinimg.com/originals/fb/32/1d/fb321dd682c5509f53d8087fe7032d71.jpg" 
+                  width="130px" height="175px" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin: 15px"> <br> Avengers </a>
+              </td>
+              <td align="center">
+                
+                <a class="movie2" href="index.html"><img src="https://images-na.ssl-images-amazon.com/images/I/71YrVzXizzL._AC_SY741_.jpg" 
+                  width="130px" height="175px" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin: 15px"><br>Joker</a>
+                
+              </td>
+              <td align="center">
+                
+                <a class="movie3" href="index.html"><img src="https://i.pinimg.com/originals/a7/95/cf/a795cfabc3f07fd25effc0e9da0e50d0.png" 
+                  width="130px" height="175px" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(58, 40, 40, 0.19); margin: 15px"><br>Frozen 2</a>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--Coming Soon!-->
+
+          <nav class="navbar navbar-expand-sm navbar-light" style="background-color:azure;">
+          
+            <ul class="navbar-nav" >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Coming Soon!</a>
+
+              </li>
+           
+            </ul>
+          
+          </nav>
+        
+          <table>
+            <tr>
+              <td align="center">
+                <a class="movie1" href="index.html"><img src="https://specials-images.forbesimg.com/imageserve/5de68156c283810006a3879a/960x0.jpg?fit=scale" 
+                  width="130px" height="175px" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin: 15px"> <br> No time to die </a>
+              </td>
+              <td align="center">
+                
+                <a class="movie2" href="index.html"><img src="https://images-na.ssl-images-amazon.com/images/I/71YrVzXizzL._AC_SY741_.jpg" 
+                  width="130px" height="175px" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin: 15px"><br>Joker</a>
+                
+              </td>
+              <td align="center">
+                
+                <a class="movie3" href="index.html"><img src="https://i.pinimg.com/originals/a7/95/cf/a795cfabc3f07fd25effc0e9da0e50d0.png" 
+                  width="130px" height="175px" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(58, 40, 40, 0.19); margin: 15px"><br>Frozen 2</a>
+
+              </td>
+            </tr>
+          </table>
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+      <!--footer-->
+
+      <div class="container-fluid p-3 my-3 bg-dark text-white" align="center">
+        <h6>Contact Us</h6>
+        <br>
+        Cineplex
+        <br>
+        cineplex@gmail.com 
+        <br>
+        +12345678
+      </div>
+      
+
+
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script type="text/javascript">
+              $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                autoplay:true,
+                autoplaySpeed: 3000,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  
 </body>
 
 

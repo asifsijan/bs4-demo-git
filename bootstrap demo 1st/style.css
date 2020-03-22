@@ -72,12 +72,9 @@ body {
 }
 
 
-/*
-.movie1 img {
-    opacity: .8;
-}
-*/
 
 .movie1:hover img {
     opacity: .8;
 }
+
+/*ADMIN PART*/

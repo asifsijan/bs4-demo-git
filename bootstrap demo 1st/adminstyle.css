@@ -69,7 +69,7 @@ body {font-family: "Lato", sans-serif;
   background-color: white;
 }
 .midadmin{
-    width: 70%;
+    width: 90%;
 }
 
 
@@ -88,7 +88,7 @@ body {font-family: "Lato", sans-serif;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 33.33%;
 }
 
 .htablink:hover {
@@ -103,7 +103,41 @@ body {font-family: "Lato", sans-serif;
   height: 100%;
 }
 
-#Home {background-color: grey;}
-#News {background-color: grey;}
-#Contact {background-color: grey;}
-#About {background-color: grey;}
+#Dash {background-color: grey;}
+#Insert {background-color: grey;}
+#Edit {background-color: grey;}
+
+
+
+/* insert tab */
+
+
+
+.htablink2 {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.33%;
+  }
+
+  .htablink2:hover {
+  background-color: #777;
+  }
+
+  /* Style the tab content (and add height:100% for full page content) */
+  .htabcontent2 {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  }
+
+
+#Dash2 {background-color: grey;}
+#Insert2 {background-color: grey;}
+#Edit2 {background-color: grey;}

@@ -52,59 +52,72 @@
             <div class="row">
                 <div class="col-lg-3">
                 <div class="tab">
-                <h5 align="center" style="padding: 14px; margin-bottom: 0px; background-color: #cccccc;"> Asif Sijan</h5>
-                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-                <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                <h5 align="center" style="padding: 14px; margin-bottom: 0px;"> Asif Sijan</h5>
+                <button class="tablinks" onclick="opentab(event, 'Movie')" id="defaultOpen">Movie</button>
+                <button class="tablinks" onclick="opentab(event, 'Show')">Show</button>
+                <button class="tablinks" onclick="opentab(event, 'Theatre')">Theatre</button>
                 </div>
             </div>
 
 
             <div class="col-lg-9">
-                <div id="London" class="tabcontent container-fluid">
+                <div id="Movie" class="tabcontent container-fluid">
              
                     
                    
                     
 
-                    <button class="htablink" onclick="openPage('Home', this, 'black')">Home</button>
-                    <button class="htablink" onclick="openPage('News', this, 'black')" id="defaultOpen">News</button>
-                    <button class="htablink" onclick="openPage('Contact', this, 'black')">Contact</button>
-                    <button class="htablink" onclick="openPage('About', this, 'black')">About</button>
+                    <button class="htablink" onclick="openPage('Dash', this, 'black')">Dash</button>
+                    <button class="htablink" onclick="openPage('Insert', this, 'black')" id="hdefaultOpen">Insert</button>
+                    <button class="htablink" onclick="openPage('Edit', this, 'black')">Edit</button>
+                   
                     
-                    <div id="Home" class="htabcontent active">
-                      <h3>Home</h3>
-                      <p>Home is where the heart is..</p>
+                    <div id="Dash" class="htabcontent active">
+                      <h3>Dash</h3>
+                      <p>Dash is where the heart is..</p>
                     </div>
                     
-                    <div id="News" class="htabcontent">
-                      <h3>News</h3>
-                      <p>Some news this fine day!</p> 
+                    <div id="Insert" class="htabcontent">
+                      <h3>Insert</h3>
+                      <p>Some Insert this fine day!</p> 
                     </div>
                     
-                    <div id="Contact" class="htabcontent">
-                      <h3>Contact</h3>
+                    <div id="Edit" class="htabcontent">
+                      <h3>Edit</h3>
                       <p>Get in touch, or swing by for a cup of coffee.</p>
                     </div>
                     
-                    <div id="About" class="htabcontent">
-                      <h3>About</h3>
-                      <p>Who we are and what we do.</p>
+
+                </div>
+
+                <div id="Show" class="tabcontent">
+
+          
+
+                  <button class="htablink2" onclick="openPage2('Dash', this, 'black')">Dash</button>
+                    <button class="htablink2" onclick="openPage2('Insert', this, 'black')" id="hdefaultOpen2">Insert</button>
+                    <button class="htablink2" onclick="openPage2('Edit', this, 'black')">Edit</button>
+                   
+                    
+                    <div id="Dash2" class="htabcontent2 active">
+                 
                     </div>
                     
-        
+                    <div id="Insert2" class="htabcontent2">
+                    
+                    </div>
+                    
+                    <div id="Edit2" class="htabcontent2">
+                    
+                    </div>
 
 
+                  
                 </div>
 
-                <div id="Paris" class="tabcontent">
-                <h3>Paris</h3>
-                <p>Paris is the capital of France.</p> 
-                </div>
-
-                <div id="Tokyo" class="tabcontent">
-                <h3>Tokyo</h3>
-                <p>Tokyo is the capital of Japan.</p>
+                <div id="Theatre" class="tabcontent">
+                <h3>Theatre</h3>
+                <p>Theatre is the capital of Japan.</p>
                 </div>
             </div>
             </div>
@@ -117,19 +130,21 @@
 
 
       <!--footer-->
-
-      <footer class="container-fluid bg-dark text-white" align="center">
-        <h6 style="padding-top:60px ">Contact Us</h6>
-        
-        Cineplex
-        <br>
-        cineplex@gmail.com 
-        <br>
-        +12345678
-        <br>
-        <br>
-      </footer>
-
+      <div class="container-fluid">
+        <footer class="bg-dark text-white" align="center">
+          <h6 style="padding-top:60px ">Edit Us</h6>
+          
+          Cineplex
+          <br>
+          cineplex@gmail.com 
+          <br>
+          +12345678
+          <br>
+          <br>
+        </footer>
+  
+      </div>
+ 
 
 
 
